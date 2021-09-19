@@ -1,0 +1,10 @@
+.controls {
+  position: relative;
+  background-color: #121212;
+  width: 100%;
+  height: 8.0971659919028340080971659919028%;
+}
+
+.controls > * {
+  width: 3.90625%;
+}

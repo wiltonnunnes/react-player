@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.play-icon {
+  font-family: 'Material Design Icons';
+}
+
+svg {
+  width: 1.5rem;
+}
+
+.btn {
+  width: 56px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+}
+
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 36px;
+  width: 36px;
+  background: #ffffff;
+}
+
+.progress-bar {
+  width: 50%;
+}
