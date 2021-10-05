@@ -6,7 +6,7 @@ class VideoSlider extends React.Component {
 
   static propTypes = {
     max: PropTypes.number.isRequired,
-    currentTime: PropTypes.number.isRequired
+    currentTimePercentage: PropTypes.number.isRequired
   };
 
   render() {
@@ -16,7 +16,7 @@ class VideoSlider extends React.Component {
           backgroundColor="#525865" 
           elements={[
             {
-              value: Math.round((this.props.currentTime / this.props.max) * 100),
+              value: this.props.currentTimePercentage,
               color: '#fe0000'
             }
           ]}

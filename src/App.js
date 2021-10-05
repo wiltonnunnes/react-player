@@ -6,8 +6,8 @@ function App() {
   return (
     <Player 
       url={video} 
-      width="100%" 
-      height="100%"
+      width={640} 
+      height={360}
     />
   );
 }
