@@ -4,3 +4,20 @@
   background-color: #e0e0de;
   border-radius: 50px;
 }
+
+.inputRange {
+  width: 100%;
+  opacity: 0.0;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 100%;
+}
+
+.inputRange::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
